@@ -1,0 +1,315 @@
+%-------------------------
+% Resume in Latex
+% Author : Ce Hou
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\setlength{\footskip}{12pt}  % or any value you prefer, like 15pt
+\usepackage[T1]{fontenc}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\usepackage{xcolor} 
+\definecolor{UQPurple}{RGB}{115, 41, 130}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\color{UQPurple}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{UQPurple}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape Cody Hou} \\ \vspace{5pt}
+  \small \raisebox{-0.1\height}\faPhone\ +61 478813670~ 
+  \href{mailto:ce.hou.data@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{cody.houx@gmail.com}} ~
+  \faMapMarker\ Brisbane, QLD, Australia ~
+  \href{https://www.linkedin.com/in/ce-hou}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+  \href{https://github.com/DataCody}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}
+  \vspace{-8pt}
+\end{center}
+
+%-----------------Summary----------------
+
+\section{Summary}
+\begin{itemize}[leftmargin=0.15in, label={•}]
+\setlength{\itemsep}{-3pt}
+    \item \textbf{Data Analyst} with a proven track record of delivering \textbf{data-driven business solutions} across energy, finance, and public health sectors, achieving cost reductions of up to \textbf{AUD 1M annually} through optimized reporting and predictive modeling.
+    \item Expert in \textbf{SQL, Python, Power BI, Tableau, and Databricks}, with hands-on experience in \textbf{dbt, Snowflake, and BigQuery} for scalable ETL pipelines, data modeling, and cloud-based analytics.
+    \item Skilled in \textbf{KPI design, operational performance analysis, and financial forecasting}, enabling executive teams to make informed strategic decisions.
+    \item Adept at integrating data from \textbf{APIs, ERP systems, and IoT devices}, ensuring \textbf{data integrity, compliance, and audit readiness} in both corporate and government settings.
+    \item Passionate about applying \textbf{predictive analytics, automation, and advanced visualization} to uncover actionable insights, improve operational efficiency, and drive measurable business outcomes.
+\end{itemize}
+\vspace{-15pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\setlength{\itemsep}{-3pt}
+\item \textbf{Programming \& Scripting:} Python, SQL, R.
+\item \textbf{Data Processing \& Analytics:} Pandas, NumPy, SciPy, Matplotlib, Seaborn, ggplot2 (R).
+\item \textbf{Databases \& NoSQL:} MySQL, PostgreSQL, SQL Server, MongoDB.
+\item \textbf{Data Warehousing:} BigQuery (GCP), Redshift (AWS), Snowflake, Databricks.
+\item \textbf{Data Transformation:} dbt (Data Build Tool), Power Query.
+\item \textbf{Business Intelligence:} Power BI, Tableau, Excel (Pivot Tables, VBA).
+\end{itemize}
+\vspace{-18pt}
+
+% -----------EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Data Analyst}{Jun 2025 -- Present}
+{Redx Technologies Australia}{Full-Time}
+\resumeItemListStart
+\resumeItem{Extracted and integrated data from internal databases, RESTful APIs, and GraphQL endpoints to deliver dynamic dashboards and KPIs with Power BI/Tableau.}
+\resumeItem{Designed a Python-based simulation model for PV + battery systems to analyze real-world energy storage performance and market feasibility.}
+\resumeItem{Provided data-driven proposals and insights to customers on cost savings and ROI, while automating reporting workflows and ensuring compliance across systems.}
+\resumeItem{\textbf{Key Achievements}: 
+\vspace{-4pt}
+    \begin{itemize}
+        \item Helped clients achieve \textbf{Net-Zero energy costs}, reducing annual electricity expenditure from \textbf{AUD 1.03M} to \textbf{Bill Zero}.
+        \item Delivered ROI in just \textbf{4 years}, supported by data-driven PV + battery system design and cost-benefit analysis.
+    \end{itemize}
+}
+
+\resumeItemListEnd
+%\iffalse
+\resumeSubheading
+{Data Analyst}{Mar 2025 -- Present}
+{Upwork}{Remote}
+\resumeItemListStart
+\resumeItem{Designed and delivered custom reports and dashboards using Power BI to assist clients in decision-making.}
+\resumeItem{Assisted clients in data cleaning, ETL processes, and data reporting automation to streamline workflows.}
+\resumeItem{Helped clients set up KPIs and created basic predictive models to forecast trends and improve business strategies.}
+\resumeItem{\textbf{Key Achievements}: 
+\vspace{-4pt}
+    \begin{itemize}
+        \item Delivered high-quality reports and dashboards on-time to help clients visualize their data and gain insights.
+        \item Received positive feedback and built trust with initial clients, leading to repeat business opportunities.
+    \end{itemize}
+}
+\resumeItemListEnd
+%\fi
+\resumeSubheading
+{Data Consultant}{Dec 2024 -- Feb 2025}
+{Centauri Alpha}{Remote}
+\resumeItemListStart
+\resumeItem{Designed and implemented custom analytics solutions using \textbf{Power BI} and \textbf{Python} to help small businesses optimize decision-making.}
+\resumeItem{Developed predictive models and data visualization dashboards to enhance \textbf{data-driven strategies}.}
+\resumeItem{Automated \textbf{ETL workflows} to improve data processing speed and accuracy.}
+\resumeItem{Collaborated with marketing and finance teams to define \textbf{key performance indicators} (KPIs) and create dashboards that support business growth.}
+\resumeItem{Analyzed \textbf{multi-dimensional datasets} to generate actionable insights for client growth strategies.}
+\resumeItem{\textbf{Key Achievements}: 
+\vspace{-4pt}
+    \begin{itemize}
+        \item Optimized KPI dashboards, leading to a 20\% \textbf{improvement} in business goal alignment.
+        \item Enhanced customer acquisition strategies, resulting in a 25\% \textbf{increase} in client growth.
+    \end{itemize}
+}
+\resumeItemListEnd
+%\fi
+
+
+\resumeSubheading
+{Research Assistant - Data Analyst}{Jun 2024 -- Oct 2024}
+{The University of Queensland}{Brisbane}
+\resumeItemListStart
+\resumeItem{Collected, cleaned, and analyzed \textbf{infectious disease} data from diverse sources to provide actionable insights.}
+\resumeItem{Identified trends, patterns, and correlations in large, multi-dimensional datasets, driving \textbf{data-driven} decision-making.}
+\resumeItem{Created impactful \textbf{reports} and \textbf{presentations}, clearly communicating key findings and recommendations to \textbf{stakeholders}.}
+\resumeItem{Collaborated closely with stakeholders to define business needs and provide \textbf{analytical support} for strategic and operational initiatives.}
+\resumeItem{\textbf{Key Achievements}: 
+\vspace{-4pt}
+    \begin{itemize}
+        \item Utilized \textbf{simulation models} to reduce the spread of infectious diseases across travel networks in Pacific Island countries, leading to improved \textbf{epidemic control strategies}.
+        \item Presented research findings at the \textbf{\textit{7th Southern Cross Australasian Travel and Tropical Medicine Conference}}, contributing valuable insights to the field of infectious disease control in Pacific Island nations.
+    \end{itemize}
+}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-18pt}
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+\vspace{-5pt}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading{\textbf{Sales Data Copilot: Lakehouse Pipeline with GenAI | Team Leader}}{\href{https://github.com/DataCody/Sales-Copilot-Lakehouse}{\underline{Link}}}
+\vspace{-13pt}
+\resumeItemListStart
+  \resumeItem{Developed an end-to-end \textbf{AI-powered Lakehouse platform} (“Sales Copilot”), enabling \textbf{retail analytics from ingestion to insight}—integrating data ingestion pipelines, smart data modeling, and Copilot-driven insights.}
+  \resumeItem{Engineered data workflows using Python with scalable lakehouse design, supporting structured/unstructured datasets—for intelligent KPI generation and automated sales reporting.}
+  \resumeItem{Implemented Copilot features for \textbf{retail decision support}, enabling semantic querying and on-demand insight generation for sales teams.}
+  \resumeItem{Leveraged technologies such as \textbf{Lakehouse architecture}, \textbf{AI Copilot}, and \textbf{smart analytics}, demonstrating full-stack data engineering and AI integration.}
+\resumeItemListEnd
+
+
+\vspace{-18pt}
+\resumeProjectHeading{\textbf{Energy Storage Value Optimization in PV Systems | Team Leader}}{\href{https://github.com/DataCody/Photovoltaic-Grid-Analysis}{\underline{Link}}}
+\resumeItemListStart
+  \resumeItem{Developed an interactive \textbf{Power BI} dashboard to evaluate photovoltaic system performance, electricity market trends, and battery storage ROI across multiple regions.}
+  \resumeItem{Processed and integrated \textbf{hourly solar generation data} from Australia, Brazil, India, and Norway (2024), covering DC/AC output, irradiance, module/ambient temperature, and energy yields.}
+  \resumeItem{Enriched analysis with \textbf{electricity price, demand, and supply data} via the OpenNEM REST API for Australia, enabling real-world revenue estimation and market feasibility studies.}
+  \resumeItem{Calculated key KPIs including inverter efficiency, cumulative yields, system performance ratio, and estimated annual revenue of \textbf{AUD 7.97K} with a payback period of 4 years.}
+  \resumeItem{Applied time-series analysis to identify performance patterns, temperature-efficiency correlations, and optimal battery dispatch strategies for increased profitability.}
+\resumeItemListEnd
+\vspace{-10pt}
+
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATION-----------
+\section{Publication}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Travel network analysis for infectious disease transmission in Pacific Island countries}{\href{https://sctravelmedconference.com/2024-program/}{\underline{Link}}}{7th Southern Cross Australasian Travel and Tropical Medicine Conference(Pg.10)}{Sep 2024}
+\resumeSubHeadingListEnd
+
+
+%-----------Certification-----------
+\section{Certification}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Databricks Fundamentals}
+{\href{https://credentials.databricks.com/722598a3-36f4-48a7-bd0a-371b86728229}{\underline{Credential}}}{DataBricks}{Mar - 2025}
+
+\resumeSubheading
+{dbt Fundamentals}{\href{https://www.linkedin.com/learning/certificates/dec770eacf4a3e72dddc0213d1a084d61513d60f754cd70ee35983675c492c8e?trk=share_certificate}{\underline{Credential}}}{Linkedin}{Feb - 2025}
+
+\resumeSubheading
+{Atlassian Agile Project Management Professional Certificate}{\href{https://www.linkedin.com/learning/certificates/39eb50dd7f9752c396a71d7f7df5da41666e1193da40bf45fe708b42c180d543}{\underline{Credential}}}{Atlassian}{Mar - 2025}
+
+\resumeSubHeadingListEnd
+\vspace{-18pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Master of Data Science}{}{The University of Queensland}{2022 - 2024}
+\resumeSubHeadingListEnd
+Completed data-driven research on travel networks \& infectious diseases.
+
+
+% \resumeSubHeadingListStart
+% \resumeSubheading
+% {Hebei University}{2012 - 2016}{Bachelor of Tourism Management}{8.5/10 GPA}
+% \resumeSubHeadingListEnd
+% \vspace{-13pt}
+%
+
+%-----------REFERENCE-----------
+\section{Reference}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Reference as request}{}{}{}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\end{document}

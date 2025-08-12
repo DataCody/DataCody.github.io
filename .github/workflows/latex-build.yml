@@ -1,0 +1,40 @@
+name: Compile LaTeX to PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - assets/docs/cody_hou.tex
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🔧 Set up LaTeX (Docker)
+        run: |
+          docker run --rm \
+          -v ${{ github.workspace }}:/workspace \
+          -w /workspace \
+          texlive/texlive:latest \
+          bash -c " pdflatex -interaction=nonstopmode -shell-escape cody_hou.tex"
+
+      - name: 📤 Upload PDF as an artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-pdf
+          path: assets/docs/cody_hou.pdf
+
+      - name: 🚀 Commit and push compiled PDF
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cody_hou.pdf
+          git commit -m "Auto-compiled latest cody_hou.pdf"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
