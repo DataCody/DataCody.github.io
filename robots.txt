@@ -1,5 +1,29 @@
+# robots.txt for https://datacody.github.io/
+# Last updated: 2025-08-13
+# Purpose: Block all web crawlers from accessing any part of this site.
+
+# Major search engines
 User-agent: Googlebot
+Disallow: /
+
 User-agent: AdsBot-Google
 Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+# All other bots
 User-agent: *
 Disallow: /
+
+# Optional: Declare sitemap location (even if blocked, useful for internal testing)
+# Sitemap: https://datacody.github.io/
+
+# Optional: Limit crawl rate for bots that ignore Disallow rules
+# Crawl-delay: 10
