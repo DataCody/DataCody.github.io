@@ -184,6 +184,80 @@ div.techstack_icon>i:hover {
     transform: scale(1.3);
 }
 
+div.techstack_icon>i.fa-python {
+    display: inline-block;
+    background: linear-gradient(-120deg, #ffde57, #4584b6, #646464);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+/* SQL */
+div.sql_icon>i {
+    display: inline-block;
+    background: linear-gradient(45deg, #00758F, #00AEEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+/* R */
+div.r_icon>i {
+    display: inline-block;
+    background: linear-gradient(45deg, #276DC3, #1C3F94);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-terminal {
+    display: inline-block;
+    background: linear-gradient(45deg, #4EAA25, #2F7F1F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-project-diagram {
+    display: inline-block;
+    background: linear-gradient(45deg, #e07b39, #f26b38);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-bolt {
+    display: inline-block;
+    background: linear-gradient(45deg, #E25A1C, #F7B32B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-cloud {
+    display: inline-block;
+    background: linear-gradient(45deg, #017CEE, #41B0F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-snowflake {
+    display: inline-block;
+    background: linear-gradient(45deg, #00BFFF, #00E5FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
 div.html_icon.techstack_icon>i.fa-html5 {
     /* color: #FF5733 !important; */
     display: inline-block;
@@ -212,14 +286,7 @@ div.techstack_icon>i.fa-js-square {
     color: #F0DB4F;
 }
 
-div.techstack_icon>i.fa-python {
-    display: inline-block;
-    background: linear-gradient(-120deg, #ffde57, #4584b6, #646464);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
+
 
 div.techstack_icon>i.fa-react {
     color: #61DBFB;
