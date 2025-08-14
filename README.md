@@ -13,6 +13,6 @@ Clone this repository, edit the content to your liking, and deploy with GitHub P
 
 ## Maintainer
 
-| <img src="https://avatars.githubusercontent.com/u/your-user-id?v=4" width="100" /> |
+| <img src="https://avatars.githubusercontent.com/u/110375821?s=96&v=4" width="100" /> |
 | :------------------------------------------------------------------------------: |
 | [DataCody](https://github.com/DataCody)                                         |
