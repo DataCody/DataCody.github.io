@@ -4,55 +4,113 @@ AOS.init();
 
 const techStackCards = document.querySelector(".techstack-box");
 const techStack = [
-  {
-    langImage: "assets/images/techstack-page/html.png",
-    langName: "HyperText Markup Language",
-    langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/css.png",
-    langName: "Cascading Style Sheets",
-    langDesc: "<li>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/javascript.png",
-    langName: "JavaScript",
-    langDesc: "<li>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/node.png",
-    langName: "Node",
-    langDesc: "<li>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser</li>",
-  },
-  {
+    {
     langImage: "assets/images/techstack-page/python.png",
     langName: "Python",
-    langDesc: "<li>Python is an interpreted high-level general-purpose programming language</li>",
+    langDesc: `
+      <li>Professional Python for data analysis, machine learning, and automation.</li>
+      <li>Common libraries: pandas, numpy, scikit-learn, matplotlib, seaborn.</li>
+      <li>Used for building dashboards, ML models, and ETL pipelines.</li>
+    `,
   },
   {
-    langImage: "assets/images/techstack-page/cpp.png",
-    langName: "C++",
-    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
+    langImage: "assets/images/techstack-page/Azure SQL Database.png",
+    langName: "SQL",
+    langDesc: `
+      <li>Querying and managing relational databases professionally.</li>
+      <li>Optimizing performance with indexes, joins, and views.</li>
+      <li>Commonly used with Python (SQLAlchemy, pyodbc) for data pipelines.</li>
+    `,
+  },
+  {
+    langImage: "assets/images/techstack-page/R.png",
+    langName: "R",
+    langDesc: `
+      <li>Professional R for statistical modeling and data visualization.</li>
+      <li>Common packages: ggplot2, dplyr, tidyr, caret.</li>
+      <li>Used for predictive modeling, reporting, and academic research.</li>
+    `,
+  },
+  {
+    langImage: "assets/images/techstack-page/Bash.png",
+    langName: "Bash",
+    langDesc: `
+      <li>Professional Bash scripting for automation and system administration.</li>
+      <li>Automates data pipelines, cron jobs, and server tasks.</li>
+      <li>Integrates with Python and SQL scripts in production workflows.</li>
+    `,
+  },
+  {
+    langImage: "assets/images/techstack-page/snowflake.svg",
+    langName: "Snowflake",
+    langDesc: `
+      <li>Cloud data warehousing for professional data engineering.</li>
+      <li>Works with Python (snowflake-connector) and SQL for ETL tasks.</li>
+      <li>Used for storing and analyzing large-scale datasets efficiently.</li>
+    `,
+  },
+  {
+    langImage: "assets/images/techstack-page/databricks.png",
+    langName: "Databricks",
+    langDesc: `
+      <li>Professional data engineering and machine learning platform.</li>
+      <li>Python + PySpark for distributed data processing.</li>
+      <li>Used for building scalable ML models and ETL pipelines.</li>
+    `,
+  },
+  {
+    langImage: "assets/images/techstack-page/AWS.png",
+    langName: "AWS",
+    langDesc: `
+      <li>Cloud computing for professional deployments and data storage.</li>
+      <li>Services used: S3, EC2, Lambda, RDS, SageMaker.</li>
+      <li>Integrates with Python for cloud-native ML and ETL workflows.</li>
+    `,
+  },
+  {
+    langImage: "assets/images/techstack-page/Azure.png",
+    langName: "Azure",
+    langDesc: `
+      <li>Professional cloud platform for applications and data services.</li>
+      <li>Services used: Azure SQL, Blob Storage, Databricks, ML Studio.</li>
+      <li>Used for deploying Python data pipelines and ML models.</li>
+    `,
+  },
+  {
+    langImage:"assets/images/techstack-page/Google Cloud.png",
+    langName:"Google Cloud",
+    langDesc:`
+      <li>Professional cloud platform for big data and ML projects.</li>
+      <li>Services used: BigQuery, Cloud Storage, AI Platform, Dataproc.</li>
+      <li>Python libraries: google-cloud-storage, pandas, TensorFlow for ML workflows.</li>
+    `,
+  },
+  {
+    langImage:"assets/images/techstack-page/dbt.png",
+    langName:"DBT",
+    langDesc:`
+      <li>Data Build Tool (DBT) for professional data transformation.</li>
+      <li>Builds modular SQL models, version-controlled in Git.</li>
+      <li>Used for transforming raw data into analytics-ready datasets.</li>
+    `,
+  },
+  {
+    langImage:"assets/images/techstack-page/Apache Airflow.png",
+    langName:"Airflow",
+    langDesc:`
+    <li>Apache Airflow for professional workflow orchestration.</li>
+    <li>Defines DAGs (Directed Acyclic Graphs) for ETL pipelines.</li>
+    <li>Integrates with Python, SQL, Spark, and cloud services for automation.</li>
+  `,
   },
   {
     langImage: "assets/images/techstack-page/git.png",
     langName: "Git",
-    langDesc: "<li>Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/bootstrap.png",
-    langName: "Bootstrap",
-    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/react.png",
-    langName: "React",
-    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
-  },
-  {
-    langImage:"assets/images/techstack-page/c.png",
-    langName:"C",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langDesc: `
+      <li>Version control system for professional software development.</li>
+      <li>Branching, merging, pull requests, and collaboration.</li>
+      <li>Used with GitHub/GitLab/Bitbucket for project management.</li>
+    `,
   },
 ];
 
