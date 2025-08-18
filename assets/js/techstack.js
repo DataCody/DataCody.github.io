@@ -86,6 +86,15 @@ const techStack = [
     `,
   },
   {
+  langImage:"assets/images/techstack-page/docker.png",
+  langName:"Docker",
+  langDesc:`
+    <li>Containerization for consistent development and deployment.</li>
+    <li>Used to package Python + ML apps into portable containers.</li>
+    <li>Integrates with Kubernetes for scaling data pipelines.</li>
+  `,
+  },
+  {
     langImage:"assets/images/techstack-page/dbt.png",
     langName:"DBT",
     langDesc:`
@@ -101,6 +110,42 @@ const techStack = [
     <li>Apache Airflow for professional workflow orchestration.</li>
     <li>Defines DAGs (Directed Acyclic Graphs) for ETL pipelines.</li>
     <li>Integrates with Python, SQL, Spark, and cloud services for automation.</li>
+  `,
+  },
+{
+  langImage:"assets/images/techstack-page/Apache Spark.png",
+  langName:"Apache Spark",
+  langDesc:`
+    <li>Distributed computing framework for big data.</li>
+    <li>Python API (PySpark) for ETL and ML pipelines.</li>
+    <li>Used in Databricks and cloud platforms for large-scale data processing.</li>
+  `,
+  },
+  {
+  langImage:"assets/images/techstack-page/kafka.png",
+  langName:"Apache Kafka",
+  langDesc:`
+    <li>Distributed event streaming platform for real-time data pipelines.</li>
+    <li>Used for messaging, log aggregation, and streaming analytics.</li>
+    <li>Integrates with Spark, Flink, and Python clients (confluent-kafka, kafka-python).</li>
+  `,
+  },
+  {
+  langImage:"assets/images/techstack-page/powerbi.png",
+  langName:"Power BI",
+  langDesc:`
+    <li>Business Intelligence tool from Microsoft.</li>
+    <li>Used to build interactive dashboards and reports.</li>
+    <li>Integrates seamlessly with SQL Server, Azure, Excel, and cloud data sources.</li>
+  `,
+  },
+{
+  langImage:"assets/images/techstack-page/tableau.png",
+  langName:"Tableau",
+  langDesc:`
+    <li>Business Intelligence tool for professional dashboards.</li>
+    <li>Connects to SQL, Snowflake, BigQuery, and Excel.</li>
+    <li>Used to visualize KPIs, trends, and advanced analytics.</li>
   `,
   },
   {
