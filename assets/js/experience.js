@@ -8,22 +8,22 @@ const exp = [
     title: "Data Analyst",
     cardImage: "assets/images/experience-page/renox.jpg",
     place: "Gold Coast, QLD, AU",
-    time: "(Jul, 2025 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    time: "(Jun, 2025 - present)",
+    desp: "<li>Extracted and integrated data from internal databases, RESTful APIs, and GraphQL endpoints to deliver dynamic dashboards and KPIs with Power BI.</li> <li>Designed a Python-based simulation model for PV + battery systems to analyze real-world energy storage performance and market feasibility.</li> <li>Provided data-driven proposals and insights to customers on cost savings and ROI, while automating reporting workflows and ensuring compliance across systems.</li>",
   },
   {
     title: "Data Consultant",
     cardImage: "assets/images/experience-page/Centauri Alpha.png",
     place: "Melbourne, VIC, AU",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    time: "(Dec 2024 - Feb, 2025)",
+    desp: "<li>Designed and implemented custom analytics solutions using Power BI and Python to help small businesses optimize decision-making.</li><li>Developed predictive models and data visualization dashboards to enhance data-driven strategies.</li><li>Automated ETL workflows to improve data processing speed and accuracy.</li>",
   },
   {
     title: "Research Assistant",
     cardImage: "assets/images/experience-page/uq.jpg",
     place: "Brisbane, QLD, AU",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    time: "(Jun, 2024 - Oct, 2024)",
+    desp: "<li>Collected, cleaned, and analyzed infectious disease data from diverse sources to provide actionable insights.</li><li>Identified trends, patterns, and correlations in large, multi-dimensional datasets, driving data-driven decision-making.</li> <li>Collaborated closely with stakeholders to define business needs and provide analytical support for strategic and operational initiatives.</li>",
   },
 ];
 
