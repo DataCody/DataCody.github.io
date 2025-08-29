@@ -5,18 +5,18 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Data Analyst",
-    cardImage: "assets/images/experience-page/renox.jpg",
-    place: "Renox Technologies, Gold Coast, QLD, AU",
-    time: "(Jun, 2025 - present)",
-    desp: "<li>Extracted and integrated data from internal databases, RESTful APIs, and GraphQL endpoints to deliver dynamic dashboards and KPIs with Power BI.</li> <li>Designed a Python-based simulation model for PV + battery systems to analyze real-world energy storage performance and market feasibility.</li> <li>Provided data-driven proposals and insights to customers on cost savings and ROI, while automating reporting workflows and ensuring compliance across systems.</li>",
-  },
-  {
-    title: "Data Analyst",
+    title: "Data Engineer",
     cardImage: "assets/images/experience-page/up.jpg",
     place: "Upwork, Remote",
     time: "(Mar, 2025 - present)",
     desp: "<li>Designed and delivered custom reports and dashboards using Power BI to assist clients in decision-making.</li> <li>Assisted clients in data cleaning, ETL processes, and data reporting automation to streamline workflows.</li> <li>Helped clients set up KPIs and created basic predictive models to forecast trends and improve business strategies.</li>",
+  },
+  {
+    title: "Data Analyst",
+    cardImage: "assets/images/experience-page/renox.jpg",
+    place: "Renox Technologies, Gold Coast, QLD, AU",
+    time: "(Jun, 2025 - Aug 2025)",
+    desp: "<li>Extracted and integrated data from internal databases, RESTful APIs, and GraphQL endpoints to deliver dynamic dashboards and KPIs with Power BI.</li> <li>Designed a Python-based simulation model for PV + battery systems to analyze real-world energy storage performance and market feasibility.</li> <li>Provided data-driven proposals and insights to customers on cost savings and ROI, while automating reporting workflows and ensuring compliance across systems.</li>",
   },
   {
     title: "Data Consultant",
