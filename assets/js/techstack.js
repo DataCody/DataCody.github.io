@@ -95,6 +95,15 @@ const techStack = [
   `,
   },
   {
+  langImage:"assets/images/techstack-page/airbyte.png",
+  langName:"Airbyte",
+  langDesc:`
+    <li>Open-source data integration platform.</li>
+    <li>Supports 300+ pre-built connectors for databases, APIs, and files.</li>
+    <li>Used for extracting and loading data from multiple sources into warehouses like Snowflake, BigQuery, or Redshift.</li>
+  `,
+  },
+  {
     langImage:"assets/images/techstack-page/dbt.png",
     langName:"DBT",
     langDesc:`
@@ -131,6 +140,15 @@ const techStack = [
   `,
   },
   {
+    langImage: "assets/images/techstack-page/git.png",
+    langName: "Git",
+    langDesc: `
+      <li>Version control system for professional software development.</li>
+      <li>Branching, merging, pull requests, and collaboration.</li>
+      <li>Used with GitHub/GitLab/Bitbucket for project management.</li>
+    `,
+  },
+  {
   langImage:"assets/images/techstack-page/powerbi.png",
   langName:"Power BI",
   langDesc:`
@@ -147,15 +165,6 @@ const techStack = [
     <li>Connects to SQL, Snowflake, BigQuery, and Excel.</li>
     <li>Used to visualize KPIs, trends, and advanced analytics.</li>
   `,
-  },
-  {
-    langImage: "assets/images/techstack-page/git.png",
-    langName: "Git",
-    langDesc: `
-      <li>Version control system for professional software development.</li>
-      <li>Branching, merging, pull requests, and collaboration.</li>
-      <li>Used with GitHub/GitLab/Bitbucket for project management.</li>
-    `,
   },
 ];
 
