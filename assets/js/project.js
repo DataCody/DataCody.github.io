@@ -83,7 +83,7 @@ const projects = [
     Githublink: "https://github.com/DataCody/employee-retention-insights",
   },
   {
-    title: "Web AB Testing",
+    title: "Google Analytics",
     cardImage: "assets/images/project-page/AB-testing.jpg",
     description: "Built using Python.",
     tagimg:
