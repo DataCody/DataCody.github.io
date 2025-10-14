@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Pacific Retail",
-    cardImage: "assets/images/project-page/ecommerce-store.jpg",
+    cardImage: "assets/images/project-page/The-Ecommerce-Business-Model-Explained.jpg",
     description: "A quiz app built using basic react.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://github.com/DataCody/pacificretail_elt_snowflake",
@@ -65,8 +65,8 @@ const projects = [
     Githublink: "https://github.com/DataCody/pvoutput-streaming-monitoring",
   },
   {
-    title: "Sales Analysis",
-    cardImage: "assets/images/project-page/The-Ecommerce-Business-Model-Explained.jpg",
+    title: "Supply Chain",
+    cardImage: "assets/images/project-page/supply-chain.avif",
     description: "Built using Tensorflow.",
     tagimg:
       "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
